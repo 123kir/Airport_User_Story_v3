@@ -1,11 +1,13 @@
 ﻿using DataGrid.Framework.ApplicantManager.Models;
-using DataGrid.Framework.ApplicantManager.Models;
 using DataGrid.Framework.Contracts;
 using DataGrid.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using DataGrid.Framework.Contracts;
+using DataGrid.Framework.Contracts.Models;
+
 
 namespace DataGrid.Framework.ApplicantManager
 {

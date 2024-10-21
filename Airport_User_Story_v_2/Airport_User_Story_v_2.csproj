@@ -100,5 +100,19 @@
     <None Include="Resources\+.jpg" />
     <Content Include="Resources\tcs61nk83dig738gik8qtkcx6ue7sgek.png" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DataGrid.Framework.ApplicantManager\DataGrid.Framework.ApplicantManager.csproj">
+      <Project>{2b4ca659-556b-48b6-87e1-7a237b649d81}</Project>
+      <Name>DataGrid.Framework.ApplicantManager</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DataGrid.Framework.Contracts\DataGrid.Framework.Contracts.csproj">
+      <Project>{5ec67c7f-3476-4045-95fe-45b984a6db2b}</Project>
+      <Name>DataGrid.Framework.Contracts</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DataGrid.Storage.Memory\DataGrid.Storage.Memory.csproj">
+      <Project>{7278abad-6dad-4b5b-9ba9-8ca20f4a6d72}</Project>
+      <Name>DataGrid.Storage.Memory</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

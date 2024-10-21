@@ -4,6 +4,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 17.11.35327.3
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Airport_User_Story_v_2", "Airport_User_Story_v_2\Airport_User_Story_v_2.csproj", "{1D61CED5-C1E2-4723-9447-96B6653E5F2C}"
+	ProjectSection(ProjectDependencies) = postProject
+		{2B4CA659-556B-48B6-87E1-7A237B649D81} = {2B4CA659-556B-48B6-87E1-7A237B649D81}
+		{5EC67C7F-3476-4045-95FE-45B984A6DB2B} = {5EC67C7F-3476-4045-95FE-45B984A6DB2B}
+		{7278ABAD-6DAD-4B5B-9BA9-8CA20F4A6D72} = {7278ABAD-6DAD-4B5B-9BA9-8CA20F4A6D72}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataGrid.Storage.Memory", "DataGrid.Storage.Memory\DataGrid.Storage.Memory.csproj", "{7278ABAD-6DAD-4B5B-9BA9-8CA20F4A6D72}"
 EndProject

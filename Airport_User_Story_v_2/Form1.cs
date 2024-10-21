@@ -4,7 +4,9 @@ using System.Windows.Forms;
 using DataGrid.Framework.Contracts;
 using DataGrid.Models;
 
-namespace DataGridStarostin
+
+
+namespace DataGrid
 {
     /// <summary>
     /// Главная форма приложения

@@ -70,5 +70,15 @@
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DataGrid.Framework.ApplicantManager\DataGrid.Framework.ApplicantManager.csproj">
+      <Project>{2b4ca659-556b-48b6-87e1-7a237b649d81}</Project>
+      <Name>DataGrid.Framework.ApplicantManager</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DataGrid.Framework.Contracts\DataGrid.Framework.Contracts.csproj">
+      <Project>{5ec67c7f-3476-4045-95fe-45b984a6db2b}</Project>
+      <Name>DataGrid.Framework.Contracts</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

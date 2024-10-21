@@ -1,4 +1,4 @@
-﻿namespace DataGridStarostin
+﻿namespace DataGrid
 {
     partial class Form1
     {
